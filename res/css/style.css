@@ -94,6 +94,13 @@
   font-size: 28px;
 }
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 @media (max-width: 767px) {
   .text-head {
     font-size: 2rem;
